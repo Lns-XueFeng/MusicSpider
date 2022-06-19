@@ -106,7 +106,7 @@ class feapderSpider(feapder.AirSpider):
             songname = str(result['name'])
             songurl = 'https://link.hhtjim.com/kw/{}.mp3'.format(rid)
             print(songname +':'+ songurl)
-            # 自动入库 + 添加代理 + 多线程爬取
+            # 入库
             data = (name, songname, songurl)
             inert_data(data)
 
