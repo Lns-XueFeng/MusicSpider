@@ -40,4 +40,5 @@ def check_data():
     # 关闭连接
     conn.close()
 
+
 check_data()

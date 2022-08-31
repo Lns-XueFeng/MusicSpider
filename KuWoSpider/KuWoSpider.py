@@ -28,9 +28,9 @@ def inert_data(data):
     conn.close()
 
 
-class feapderSpider(feapder.AirSpider):
-    # 定义一个全局变量留着给解析详情页函数修改后以便使用
+class KuWoSpider(feapder.AirSpider):
     pages = 1
+
     def start_requests(self):
         for i in range(1,177): # 歌手页
             params = {
@@ -43,7 +43,7 @@ class feapderSpider(feapder.AirSpider):
             }
             yield feapder.Request("http://www.kuwo.cn/api/www/artist/artistInfo?",params=params)
 
-    def gainCsrf(self):
+    def gain_csrf(self):
         """
         伪造csrf加密参数
         :return:
@@ -61,7 +61,7 @@ class feapderSpider(feapder.AirSpider):
 
     def download_midware(self, request):
 
-        csrf = self.gainCsrf()
+        csrf = self.gain_csrf()
         # print(csrf)
         request.headers = {
             'user-agent': f'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
@@ -112,4 +112,4 @@ class feapderSpider(feapder.AirSpider):
 
 
 if __name__ == "__main__":
-    feapderSpider().start()
+    KuWoSpider().start()
