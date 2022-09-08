@@ -1,7 +1,7 @@
 # KuWoSpider
-#### 利用feapder框架对酷我音乐大概一千三百万歌曲进行全栈爬取
+#### Use of the Feapder to spider the 'cool me music' all over the site (about 1300w musics)
 
-#### 安装：git clone https://github.com/hardandkeep/KuWoMusic_Spider
+#### Install：git clone https://github.com/hardandkeep/KuWoMusic_Spider
 
-#### 使用：python KuWoSpider
+#### Usage：python KuWoSpider
 
