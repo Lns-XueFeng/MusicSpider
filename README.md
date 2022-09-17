@@ -1,5 +1,5 @@
 # KuWoSpider
-#### Use of the Feapder to spider the 'cool me music' all over the site (about 1300w musics)
+#### 利用Feapder去爬取"酷我音乐"大概1300w歌曲
 
 #### Install：git clone https://github.com/hardandkeep/KuWoMusic_Spider
 
