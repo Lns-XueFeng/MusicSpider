@@ -1,4 +1,4 @@
-from KuWoSpider import KuWoSpider
+from kuwo_spider import KuWoSpider
 
 
 if __name__ == "__main__":
