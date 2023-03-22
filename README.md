@@ -3,7 +3,7 @@
 
 <h3>使用：</h3>
 <ul>
-    <li>Clone项目：git clone https://github.com/hardandkeep/KuWoMusic_Spider</li>
+    <li>Clone项目：git clone https://github.com/Lns-XueFeng/MusicSpider</li>
     <li>Easy to run：使用easy_to_run.py脚本运行KuWoSpider</li>
     <li>Command line to run：python -m kuwo_spider</li>
 </ul>
